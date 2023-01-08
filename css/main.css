@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*   FORMULARIO   */
+
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form fieldset {
+    padding: 20px 40px;
+    border: 2px solid #ccc;
+    box-shadow: 10px 10px 4px #ccc;
+}
+
+form legend {
+    text-align: left;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=text],
+[type=email] {
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 8px 13px;
+    border: 1px solid #ccc;
+}
+
+form input[type=text]:focus,
+[type=email]:focus,
+form select:focus,
+form textarea:focus {
+    outline: 0;
+}
+
+form select {
+    color: rgb(130, 130, 130);
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-image: url('../image/cursor-pointer.jpg');
+    background-repeat: no-repeat;
+    background-size: 15px 20px;
+    background-position: 97% 5px;
+}
+
+form h2 {
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.input {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span {
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+input[type=radio],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+form textarea {
+    margin-top: 20px;
+    width: 80%;
+    height: 120px;
+    padding: 10px 13px;
+    resize: none;
+    border: 1px solid #ccc;
+
+}
+
+form input[type=submit] {
+    margin-top: 30px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(140, 140, 140);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*   Enviar foto   */
+
+input[type=file] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin-top: 28px;
+    width: 140px;
+    height: 20px;
+    padding: 11px;
+    cursor: pointer;
+    background-color: rgb(140, 140, 140);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*   FOOTER   */
+
+footer {
+    height: 30px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+
+    <form method="POST">
+        <fieldset>
+            <legend>Preencha o Formulário</legend>
+            <div>
+                <input type="text" name="nome" placeholder="Digite o seu nome..." required />
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Digite o seu email..." required />
+            </div>
+            <div>
+                <select name="lista">
+                    <option disabled hidden selected>Qual sua idade?</option>
+                    <option value="14-">14-</option>
+                    <option value="15-17">15 - 17</option>
+                    <option value="18-24">18 - 24</option>
+                    <option value="25+">25+</option>
+                </select>
+            </div>
+
+            <div>
+                <select name="lista">
+                    <option disabled hidden selected>Qual o seu estado?</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+
+            <h2>Qual o seu gênero?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="sexo" value="M" /><span>Masculino</span>
+                </div>
+                <div>
+                    <input type="radio" name="sexo" value="F" /><span>Feminino</span>
+                </div>
+            </div>
+
+            <h2>O que você mais gosta de comer?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="alimento[]" value="salada" /><span>Legumes e Verduras</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="alimento[]" value="fruta" /><span>Frutas</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="alimento[]" value="lanche" /><span>Fast-Food</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="alimento[]" value="doce" /><span>Doces</span>
+                </div>
+            </div>
+
+            <div>
+                <textarea name="observacao" placeholder="Possui alguma observação?"></textarea>
+            </div>
+
+            <div>
+
+            </div>
+
+            <div class="buttons">
+                <input id="file" type="file" name="file" />
+                <label for="file">Adicionar Foto</label>
+                <input type="submit" nome="acao" value="Enviar!">
+            </div>
+
+        </fieldset>
+    </form>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
