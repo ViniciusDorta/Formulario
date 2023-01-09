@@ -49,6 +49,7 @@ form textarea:focus {
 }
 
 form select {
+    color: rgb(140, 140, 140);
     width: calc(80% + 26px);
     margin-top: 30px;
     padding: 8px 15px;
